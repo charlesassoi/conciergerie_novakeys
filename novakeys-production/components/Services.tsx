@@ -1,4 +1,11 @@
-import { BedDouble, BrushCleaning, CalendarDays, KeyRound, MessageCircle, Wrench } from 'lucide-react';
+import {
+  BedDouble,
+  Brush,
+  CalendarDays,
+  KeyRound,
+  MessageCircle,
+  Wrench
+} from "lucide-react";
 
 const services = [
   {
@@ -19,7 +26,7 @@ const services = [
   {
     title: 'Ménage hôtelier',
     description: 'Nettoyage professionnel, blanchisserie et contrôle qualité.',
-    icon: BrushCleaning,
+    icon: Brush,
   },
   {
     title: 'Support voyageur 7j/7',
